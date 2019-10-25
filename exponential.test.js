@@ -5,7 +5,7 @@ test("test exponential", () => {
   const cols = 3;
   let ex = new Exponential(rows, cols);
 
-  console.table(ex.data);
+  // console.table(ex.data);
 
   for (let row = 0; row < rows; row++) {
     for (let col = 0; col < cols; col++) {
